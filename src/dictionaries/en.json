@@ -1,0 +1,122 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "About Us",
+    "academics": "Academics",
+    "admissions": "Admissions",
+    "news": "News & Events",
+    "gallery": "Gallery",
+    "contact": "Contact",
+    "applyNow": "Apply Now"
+  },
+  "hero": {
+    "badge": "Admissions Open 2025",
+    "title": "Building Tomorrow's",
+    "titleHighlight": "Leaders",
+    "subtitle": "Al-Sadiq Education House | 58 GB. Jaranwala, Faisalabad",
+    "description": "Providing quality education from Pre-Year to Class 8 — nurturing discipline, character, and academic excellence in every student.",
+    "cta1": "Apply for Admission",
+    "cta2": "Explore Academics",
+    "motto": "Knowledge · Character · Discipline"
+  },
+  "stats": {
+    "students": "Students Enrolled",
+    "teachers": "Qualified Teachers",
+    "years": "Years of Excellence",
+    "passRate": "Pass Rate"
+  },
+  "about": {
+    "sectionLabel": "Who We Are",
+    "title": "A Legacy of Academic Excellence",
+    "description": "Al-Sadiq Education House has been the cornerstone of quality education in 58 GB. Jaranwala, Faisalabad. We are committed to nurturing every child from their earliest years through Class 8, building a strong foundation of knowledge, moral values, and discipline.",
+    "readMore": "Read Our Full Story",
+    "mission": "Our Mission",
+    "missionText": "To provide accessible, high-quality education that builds character, instills discipline, and empowers students to excel academically and morally.",
+    "vision": "Our Vision",
+    "visionText": "To be the most trusted institution in our region, producing confident, knowledgeable, and morally upright future leaders."
+  },
+  "grades": {
+    "sectionLabel": "Programs",
+    "title": "Education at Every Stage",
+    "subtitle": "Structured learning pathways designed for each phase of a child's development",
+    "preYear": {
+      "title": "Pre-Year",
+      "subtitle": "Nursery & Play Group",
+      "desc": "A nurturing environment for the youngest learners to develop social skills, basic literacy, and a love for learning."
+    },
+    "kg": {
+      "title": "Kindergarten",
+      "subtitle": "KG-1 & KG-2",
+      "desc": "Building foundational skills in reading, writing, mathematics, and creative thinking through play-based learning."
+    },
+    "primary": {
+      "title": "Primary",
+      "subtitle": "Classes 1 – 5",
+      "desc": "Comprehensive subject-based education developing analytical thinking, language skills, and a strong academic base."
+    },
+    "middle": {
+      "title": "Middle School",
+      "subtitle": "Classes 6 – 8",
+      "desc": "Advanced curriculum preparing students for higher education with a focus on science, mathematics, and leadership."
+    }
+  },
+  "whyUs": {
+    "sectionLabel": "Why Choose Us",
+    "title": "Excellence in Every Dimension",
+    "subtitle": "We go beyond textbooks to shape complete, capable individuals",
+    "discipline": {
+      "title": "Discipline & Character",
+      "desc": "A structured environment that builds responsibility, punctuality, and moral integrity from an early age."
+    },
+    "academics": {
+      "title": "Academic Excellence",
+      "desc": "Experienced faculty delivering quality education aligned with national curriculum standards."
+    },
+    "quran": {
+      "title": "Quranic Education",
+      "desc": "Dedicated Quran and Islamic studies integrated into the daily program with qualified Qari staff."
+    },
+    "sports": {
+      "title": "Sports & Activities",
+      "desc": "Physical education, sports competitions, and co-curricular activities for holistic development."
+    },
+    "safe": {
+      "title": "Safe Environment",
+      "desc": "A secure, caring atmosphere where every child is valued, protected, and encouraged to thrive."
+    },
+    "village": {
+      "title": "Community Focused",
+      "desc": "Rooted in the 58 GB Jaranwala community, making quality education accessible to every family."
+    }
+  },
+  "admissions": {
+    "sectionLabel": "Admissions",
+    "title": "Join the Al-Sadiq Family",
+    "subtitle": "Simple steps to secure your child's future",
+    "cta": "Apply Online Now",
+    "step1": "Submit Application",
+    "step1Desc": "Fill out the online or offline admission form with required details.",
+    "step2": "Entry Assessment",
+    "step2Desc": "A simple age-appropriate test to place your child in the right class.",
+    "step3": "Document Submission",
+    "step3Desc": "Submit birth certificate, previous result cards, and photos.",
+    "step4": "Confirmation",
+    "step4Desc": "Receive your admission confirmation and fee challan within 2 working days."
+  },
+  "contact": {
+    "address": "58 GB, Jaranwala, Faisalabad Division, Punjab",
+    "phone": "0300-5470330",
+    "whatsapp": "Chat on WhatsApp",
+    "email": "info@alsadiqeducation.edu.pk",
+    "hours": "Mon – Sat: 7:30 AM – 2:00 PM"
+  },
+  "footer": {
+    "tagline": "Building Future Leaders Since Day One",
+    "quickLinks": "Quick Links",
+    "contactUs": "Contact Us",
+    "followUs": "Follow Us",
+    "rights": "All rights reserved.",
+    "location": "58 GB, Jaranwala, Faisalabad"
+  }
+}
+

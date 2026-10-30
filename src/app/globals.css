@@ -1,26 +1,120 @@
 @import "tailwindcss";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+@theme {
+  /* Navy Blue Palette */
+  --color-navy-50: #f0f4f8;
+  --color-navy-100: #d9e2ec;
+  --color-navy-200: #bcccdc;
+  --color-navy-300: #9fb3c8;
+  --color-navy-400: #829ab1;
+  --color-navy-500: #627d98;
+  --color-navy-600: #486581;
+  --color-navy-700: #334e68;
+  --color-navy-800: #243b53;
+  --color-navy-900: #0B192C;
+  --color-navy-950: #071221;
+
+  /* Matte Gold Palette */
+  --color-gold-50: #fdf9f0;
+  --color-gold-100: #f9eecc;
+  --color-gold-200: #f2d98a;
+  --color-gold-300: #e8c24d;
+  --color-gold-400: #d4a629;
+  --color-gold-500: #C5A059;
+  --color-gold-600: #a07f3d;
+  --color-gold-700: #7a5f2b;
+  --color-gold-800: #5a4520;
+  --color-gold-900: #3d2f14;
+
+  /* Fonts */
+  --font-sans: var(--font-poppins), system-ui, sans-serif;
+  --font-urdu: 'Noto Nastaliq Urdu', serif;
+
+  /* Animation */
+  --animate-spin-slow: spin 12s linear infinite;
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
+@layer base {
+  * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply bg-white text-navy-900 antialiased;
+    font-family: var(--font-sans);
+  }
+
+  /* RTL Support */
+  [dir="rtl"] body {
+    font-family: 'Noto Nastaliq Urdu', serif;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-bold tracking-tight;
+  }
+
+  /* Scrollbar */
+  ::-webkit-scrollbar {
+    width: 6px;
+  }
+  ::-webkit-scrollbar-track {
+    @apply bg-navy-950;
+  }
+  ::-webkit-scrollbar-thumb {
+    @apply bg-gold-500/40 rounded-full;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    @apply bg-gold-500/70;
   }
 }
 
-body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+@layer utilities {
+  .font-urdu {
+    font-family: 'Noto Nastaliq Urdu', serif;
+    line-height: 2;
+  }
+
+  .direction-rtl {
+    direction: rtl;
+  }
+
+  .text-balance {
+    text-wrap: balance;
+  }
+
+  /* Gold gradient text */
+  .text-gold-gradient {
+    background: linear-gradient(135deg, #C5A059 0%, #e8c24d 50%, #C5A059 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+
+  /* Cadet section divider */
+  .section-divider {
+    @apply w-16 h-1 bg-gold-500 rounded-full;
+  }
+
+  /* Gold shimmer animation */
+  .shimmer {
+    background: linear-gradient(90deg, transparent 0%, rgba(197, 160, 89, 0.3) 50%, transparent 100%);
+    background-size: 200% 100%;
+    animation: shimmer 2s infinite;
+  }
+}
+
+@keyframes shimmer {
+  0% { background-position: -200% 0; }
+  100% { background-position: 200% 0; }
+}
+
+@keyframes spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
 }
